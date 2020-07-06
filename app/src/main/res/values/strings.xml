@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StrooiHelper</string>
+    <string name="password"></string>
+    <string name="welkom">Welkom in onze app! Geef uw code in en krijg toegang!</string>
+</resources>
