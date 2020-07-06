@@ -25,7 +25,7 @@ public class DetailActivity extends Activity {
         if(bundle.getString("item").equals("Instructies")){
             detailAdapter = new DetailAdapter(this, Detail.details);
             listView.setAdapter(detailAdapter);
-        } else  if(bundle.getString("item").equals("Fouten")){
+        } else if(bundle.getString("item").equals("Fouten")){
             detailAdapter = new DetailAdapter(this, Detail.fouten);
             listView.setAdapter(detailAdapter);
             onItemClick();
