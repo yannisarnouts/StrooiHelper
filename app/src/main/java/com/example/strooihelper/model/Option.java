@@ -7,7 +7,15 @@ public class Option {
             new Option("Instructies", R.drawable.instructie1),
             new Option("Dosering", R.drawable.instructie2),
             new Option("Veld beëindigen", R.drawable.instructie3),
-            new Option("Fouten", R.drawable.instructie4)
+            new Option("Fouten", R.drawable.instructie4),
+    };
+    public static Option[] mestOptions = {
+            new Option("Meststof keuze + Werbreedte", R.drawable.instructie1),
+            new Option("Dosering", R.drawable.instructie2),
+            new Option("Van de kantstrooien", R.drawable.instructie1),
+            new Option("Naar de kantstrooien", R.drawable.instructie1),
+            new Option("Restant nog te strooien", R.drawable.instructie1),
+            new Option("Snel lossen/leegmaken", R.drawable.instructie1),
     };
 
     private String option;

@@ -4,7 +4,7 @@ import com.example.strooihelper.R;
 public class Soort {
     public static Soort[] opts = {
             new Soort("Kalk", R.drawable.tractor, "Klik hier voor verdere handelingen over kalk"),
-            new Soort("Mest", R.drawable.tractor, "Klik hier voor verdere handelingen over mest")
+            new Soort("Meststoffen", R.drawable.tractor, "Klik hier voor verdere handelingen over mest")
     };
 
     private String option;

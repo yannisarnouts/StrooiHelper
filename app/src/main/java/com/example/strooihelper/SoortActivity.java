@@ -30,9 +30,9 @@ public class SoortActivity extends Activity {
                 if(item.equals("Kalk")){
                     intent = new Intent(SoortActivity.this, KalkOptionActivity.class);
                     startActivity(intent);
-                }else{
-                    Toast.makeText(getApplicationContext(), "klik op kalk", Toast.LENGTH_LONG).show();
-                    Toast.makeText(getApplicationContext(), item, Toast.LENGTH_LONG).show();
+                }else if (item.equals("Meststoffen")){
+                    intent = new Intent(SoortActivity.this, MestOptionActivity.class);
+                    startActivity(intent);
                 }
             }
         });

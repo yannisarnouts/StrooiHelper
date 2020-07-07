@@ -102,4 +102,7 @@ public class Detail {
             new Detail("STAP 7", "druk boven aan op terug", R.drawable.eind7),
             new Detail("STAP 8", "rij naar een nieuw perceel en druk dan op navigatie.", R.drawable.eind8),
     };
+    public static Detail[] meststoffen = {
+            new Detail("STAP 1", "Test voor meststoffen", R.drawable.eind1),
+    };
 }
