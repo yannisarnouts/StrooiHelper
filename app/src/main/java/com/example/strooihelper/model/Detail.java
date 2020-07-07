@@ -102,7 +102,25 @@ public class Detail {
             new Detail("STAP 7", "druk boven aan op terug", R.drawable.eind7),
             new Detail("STAP 8", "rij naar een nieuw perceel en druk dan op navigatie.", R.drawable.eind8),
     };
-    public static Detail[] meststoffen = {
-            new Detail("STAP 1", "Test voor meststoffen", R.drawable.eind1),
+    public static Detail[] van_de_kantstrooien = {
+            new Detail("STAP 1", "Start terminal op", R.drawable.vdkant1),
+            new Detail("STAP 2", "Wachten/even geduld...", R.drawable.vdkant2),
+            new Detail("STAP 3", "Druk op enter", R.drawable.vdkant3),
+            new Detail("STAP 4", "Druk op ACK", R.drawable.vdkant4),
+            new Detail("STAP 5", "Dan komt u hier uit.", R.drawable.vdkant5),
+            new Detail("STAP 6", "Zet een kant dicht hoe U het veld om willen rijden links om of rechts\n" +
+                    "om. Laat ook de kanten inrichting zaken hydraulisch van de traktor.", R.drawable.vdkant6),
+            new Detail("STAP 7", "Bereid de GPS voor", R.drawable.vdkant7),
+            new Detail("STAP 8", "Laat de schijven draaien", R.drawable.vdkant8),
+            new Detail("STAP 9", "Bevestig met enter", R.drawable.vdkant9),
+            new Detail("STAP 10", "Zet de strooier evt in automaat indien en de gps U een akkergrens hebt,\n" +
+                    "anders volg de handleiding.", R.drawable.vdkant10),
+            new Detail("STAP 11", "rij een keer rond zet de kanten inrichting naar boven en druk OP\n" +
+                    "\"C/100%\"", R.drawable.vdkant11),
+            new Detail("STAP 12", "zet de kanten inrichting naar boven en druk OP 100 Procent", R.drawable.vdkant12),
+            new Detail("STAP 13", "Zet de strooier op start en de gps in AUTO", R.drawable.vdkant13),
+            new Detail("STAP 14", "De A wordt zwart bij de strooier, en manu wordt auto bij gps", R.drawable.vdkant14),
+            new Detail("STAP 15", "Rijd vervolgens nog eens rond", 0),
+            new Detail("STAP 15", "strooi het veld in over de AB lijnen in", 0),
     };
 }

@@ -29,36 +29,36 @@ public class MestOptionActivity extends Activity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = null;
                 String item = (String) listView.getItemAtPosition(i).toString();
-                if(item.equals("Meststof keuze + Werbreedte")){
+                if(item.equals("Van de kantstrooien")) {
                     intent = new Intent(MestOptionActivity.this, DetailActivity.class);
                     intent.putExtra("item", item);
                     startActivity(intent);
-                }else if(item.equals("Dosering")){
-                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
-                    intent.putExtra("item", item);
-                    startActivity(intent);
-                }else if(item.equals("Van de kantstrooien")){
-                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
-                    intent.putExtra("item", item);
-                    startActivity(intent);
-                }else if(item.equals("Naar de kantstrooien")){
-                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
-                    intent.putExtra("item", item);
-                    startActivity(intent);
-                }
-                else if(item.equals("Restant nog te strooien")){
-                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
-                    intent.putExtra("item", item);
-                    startActivity(intent);
-                }
-                else if(item.equals("Snel lossen/leegmaken")){
-                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
-                    intent.putExtra("item", item);
-                    startActivity(intent);
-                }
-                else {
+                } else {
                     Toast.makeText(getApplicationContext(), "nog niet beschikbaar", Toast.LENGTH_LONG).show();
                 }
+//                    if(item.equals("Meststof keuze + Werbreedte")){
+//                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
+//                    intent.putExtra("item", item);
+//                    startActivity(intent);
+//                }else if(item.equals("Dosering")){
+//                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
+//                    intent.putExtra("item", item);
+//                    startActivity(intent);
+//                }else }else if(item.equals("Naar de kantstrooien")){
+//                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
+//                    intent.putExtra("item", item);
+//                    startActivity(intent);
+//                }
+//                else if(item.equals("Restant nog te strooien")){
+//                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
+//                    intent.putExtra("item", item);
+//                    startActivity(intent);
+//                }
+//                else if(item.equals("Snel lossen/leegmaken")){
+//                    intent = new Intent(MestOptionActivity.this, DetailActivity.class);
+//                    intent.putExtra("item", item);
+//                    startActivity(intent);
+//                }
             }
         });
     }
