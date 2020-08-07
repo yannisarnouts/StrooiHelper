@@ -47,6 +47,12 @@ public class DetailActivity extends Activity {
         } else if(bundle.getString("item").equals("Van de kantstrooien")){
             detailAdapter = new DetailAdapter(this, Detail.van_de_kantstrooien);
             listView.setAdapter(detailAdapter);
+        } else if(bundle.getString("item").equals("Snel lossen/leegmaken")){
+            detailAdapter = new DetailAdapter(this, Detail.snellossenleegmaken);
+            listView.setAdapter(detailAdapter);
+        } else if(bundle.getString("item").equals("Dosering")){
+            detailAdapter = new DetailAdapter(this, Detail.snellossenleegmaken);
+            listView.setAdapter(detailAdapter);
         }
         else {
             detailAdapter = null;

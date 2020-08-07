@@ -123,4 +123,15 @@ public class Detail {
             new Detail("STAP 15", "Rijd vervolgens nog eens rond", 0),
             new Detail("STAP 15", "strooi het veld in over de AB lijnen in", 0),
     };
+    public static Detail[] snellossenleegmaken = {
+            new Detail("STAP 1", "Druk strooischerm/home", R.drawable.snellossenleeg1),
+            new Detail("STAP 2", "Druk op snel lossen", R.drawable.snellossenleeg2),
+            new Detail("STAP 3", "Druk op start", R.drawable.snellossenleeg3),
+            new Detail("STAP 4", "Druk op start", R.drawable.snellossenleeg4),
+            new Detail("STAP 5", "Pijlen worden rood onder de strooier start stop wordt ook rood, de meststoffen vallen er uit en zo kunt U strooier afkuisen", R.drawable.snellossenleeg5),
+            new Detail("STAP 6", "Als u klaar bent drukt U eerst op stop vervolgens op de pijl", R.drawable.snellossenleeg6),
+            new Detail("STAP 7", "Druk op stop", R.drawable.snellossenleeg7),
+            new Detail("STAP 8", "Druk op een van de twee toetsen", R.drawable.snellossenleeg8),
+            new Detail("STAP 9", "Dan komt u hier", R.drawable.snellossenleeg9)
+    };
 }
