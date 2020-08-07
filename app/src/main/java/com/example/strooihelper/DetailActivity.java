@@ -1,7 +1,5 @@
 package com.example.strooihelper;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -39,7 +37,7 @@ public class DetailActivity extends Activity {
             detailAdapter = new DetailAdapter(this, Detail.fout3);
             listView.setAdapter(detailAdapter);
         }else if(bundle.getString("item").equals("Dosering")){
-            detailAdapter = new DetailAdapter(this, Detail.dosering);
+            detailAdapter = new DetailAdapter(this, Detail.kalkdosering);
             listView.setAdapter(detailAdapter);
         }else if(bundle.getString("item").equals("Veld beëindigen")){
             detailAdapter = new DetailAdapter(this, Detail.beindigen);
@@ -50,8 +48,8 @@ public class DetailActivity extends Activity {
         } else if(bundle.getString("item").equals("Snel lossen/leegmaken")){
             detailAdapter = new DetailAdapter(this, Detail.snellossenleegmaken);
             listView.setAdapter(detailAdapter);
-        } else if(bundle.getString("item").equals("Dosering")){
-            detailAdapter = new DetailAdapter(this, Detail.snellossenleegmaken);
+        } else if(bundle.getString("item").equals("mestDosering")){
+            detailAdapter = new DetailAdapter(this, Detail.mestdosering);
             listView.setAdapter(detailAdapter);
         }
         else {

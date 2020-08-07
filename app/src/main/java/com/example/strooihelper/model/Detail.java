@@ -85,7 +85,7 @@ public class Detail {
             new Detail("STAP 1", "Druk dan op de knop in de cirkel", R.drawable.oplossing3_1),
             new Detail("RESULTAAT", "als u vooruit rijdt moet de pijl grijs zijn terug", R.drawable.oplossing3_2)
     };
-    public static Detail[] dosering = {
+    public static Detail[] kalkdosering = {
             new Detail("STAP 1", "druk op tand wiel voor de kg aanpassen boven in rechthoek is de gewenste strooi hoeveelheid.", R.drawable.dosering1),
             new Detail("STAP 2", "dubbelklik op target rt in het vakje kg/ha", R.drawable.dosering2),
             new Detail("STAP 3", "pas kg aan de gewenste hoeveelheid kg druk vervolgens op groene v", R.drawable.dosering3),
@@ -133,5 +133,11 @@ public class Detail {
             new Detail("STAP 7", "Druk op stop", R.drawable.snellossenleeg7),
             new Detail("STAP 8", "Druk op een van de twee toetsen", R.drawable.snellossenleeg8),
             new Detail("STAP 9", "Dan komt u hier", R.drawable.snellossenleeg9)
+    };
+    public static Detail[] mestdosering = {
+            new Detail("STAP 1", "Druk op de kg/ha toets", R.drawable.mestdosering1),
+            new Detail("STAP 2", "Geef de gewenste waarden in", R.drawable.mestdosering2),
+            new Detail("STAP 3", "Druk op de groene vink", R.drawable.mestdosering3),
+            new Detail("STAP 4", "Controleer de gewenste waarden", R.drawable.mestdosering4),
     };
 }

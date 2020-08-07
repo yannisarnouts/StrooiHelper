@@ -39,7 +39,7 @@ public class MestOptionActivity extends Activity {
                     startActivity(intent);
                 } else if(item.equals("Dosering")){
                     intent = new Intent(MestOptionActivity.this, DetailActivity.class);
-                    intent.putExtra("item", item);
+                    intent.putExtra("item", "mest" + item);
                     startActivity(intent);
                 }
                 else {
